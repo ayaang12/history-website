@@ -67,25 +67,24 @@ export default function WhoWeAre() {
             <div className="md:w-1/2">
               <div className="vintage-frame overflow-hidden">
                 <img
-                  src="https://www.slate.com/content/dam/slate/articles/news_and_politics/politics/2016/04/trump_baby_boom/160429_POL_Vietnam-Protest-Berkeley-CA.jpg.CROP.original-original.jpg"
-                  alt="Crowd of young people gathered in a field"
+                  src="https://www.archives.gov/files/education/lessons/rosa-parks/images/police-report-l.jpg"
+                  alt="Rosa Parks' Arrest Records"
                   className="w-full h-64 object-cover"
                   style={{ filter: 'sepia(30%) contrast(1.1)' }}
                 />
               </div>
               <p className="font-typewriter text-brown/50 text-xs text-center mt-2 italic">
-                Students protesting the Vietnam War at the University of California, Berkeley, 1967
+                Official Police Report of the Arrest of Rosa Parks, 1955
               </p>
             </div>
 
             <div className="md:w-1/2">
               <SunburstSVG color="#A8D5A2" size={56} className="mb-4 opacity-60" />
               <blockquote className="font-groovy text-brown text-2xl leading-snug">
-                "We are not hippies or radicals. We are your children —
-                and we are finally asking the right questions."
+                The actual booking details, the specific city code violation used to arrest her, and an illustrated seating diagram of the bus showing exactly where she was sitting.
               </blockquote>
               <p className="font-typewriter text-brown/50 text-sm mt-3">
-                — Anonymous, Berkeley Free Speech Movement pamphlet, 1964
+                The arrest came from her refusal to give up her seat on the bus to a white man, which was deemed illegal and got her thrown in prison, starting the whole movement.
               </p>
 
               <div className="mt-6 grid grid-cols-3 gap-3">
