@@ -91,17 +91,16 @@ const events = [
   },
   {
     year: '1969',
-    title: 'Woodstock',
-    date: 'August 15–18, 1969',
-    location: 'Bethel, New York',
+    title: 'Second Anti-War Moratorium',
+    date: 'November 15, 1969',
+    location: 'Washington D.C',
     color: '#B8E0B0',
     image: 'https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=600',
-    body: `Half a million young Americans converged on Max Yasgur's dairy farm in upstate New York
-    for what became the defining cultural event of the counterculture. Janis Joplin, Jimi
-    Hendrix, The Who, Jefferson Airplane, and thirty-two other acts performed. Despite rain,
-    mud, food shortages, and the sheer impossibility of the logistics, the festival was largely
-    peaceful. Woodstock demonstrated both the size and the ethos of the generation: communal,
-    free, and briefly, beautifully, ungovernable.`,
+    body: `1969 antiwar protest in Washington, D.C., that drew as many as 500,000 people. 
+    This protest was against the Vietnam war and the organizer sponsored pro-peace anti-war moratoriums around the world. 
+    It followed the March Against Death demonstration held on Nov. 14, when people paraded down Pennsylvania Avenue carrying signs with the names of 
+    dead U.S. soldiers and names of destroyed Vietnamese towns. The Saturday protest featured a rally at the White House, where demonstrators 
+    sang and chanted to demand a peaceful end to the war.`,
     significance: '400,000 people; the counterculture\'s largest cultural moment.',
   },
   {
