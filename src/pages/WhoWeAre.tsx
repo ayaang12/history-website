@@ -105,7 +105,7 @@ export default function WhoWeAre() {
 
           {/* Primary Source */}
           <div className="mt-20">
-            <h2 className="section-headline text-5xl text-center text-brown mb-2">Primary Source</h2>
+            <h2 className="section-headline text-5xl text-center text-brown mb-2">Prevalence in Pop Culture</h2>
             <div className="flex justify-center mb-10">
               <div className="flex gap-3">
                 {[0,1,2,3,4].map(i => <FlowerSVG key={i} color={['#A8D5A2','#C4B8E0','#B8E0B0','#E6E0F0','#A8D5A2'][i]} size={28} />)}
