@@ -18,8 +18,8 @@ export default function WhoWeAre() {
             <div className="flex-1 text-center md:text-left">
               <span className="stamp text-sage-dark border-sage-dark text-xs mb-4 inline-block">Est. 1960</span>
               <h1 className="section-headline text-6xl md:text-8xl text-brown text-shadow-ink leading-none mb-4">
-                Who<br />
-                <span className="text-sage-dark">We Are</span>
+                Youth/Counterculture <br />
+                <span className="text-sage-dark">Movement</span>
               </h1>
               <div className="flex items-center gap-3 justify-center md:justify-start mt-4">
                 <PeaceSVG size={32} color="#A8D5A2" />
@@ -31,10 +31,7 @@ export default function WhoWeAre() {
             {/* Right: intro text block */}
             <div className="flex-1 bg-cream/10 border-2 border-sage/40 p-6 rounded-sm rotate-1">
               <p className="font-typewriter text-brown/90 text-base leading-relaxed">
-                We are the sons and daughters of the postwar boom — raised on television,
-                Eisenhower prosperity, and the constant shadow of the bomb. We came of age
-                asking questions our parents were afraid to ask, and we refused to accept
-                the answers handed down by a system built on conformity and fear.
+                
               </p>
               <div className="mt-4 pull-quote border-sage/50 text-sage-dark text-xl">
                 "Don't trust anyone over thirty."
@@ -61,21 +58,7 @@ export default function WhoWeAre() {
         <div className="max-w-5xl mx-auto">
           <div className="max-w-3xl mx-auto mb-16">
             <p className="font-body text-brown/80 leading-loose text-base">
-              Between 1946 and 1964, approximately 76 million babies were born in the United States
-              alone. This postwar baby boom produced the largest generation in American history —
-              young people who would come to adulthood simultaneously, sharing the same cultural
-              touchstones, fears, and frustrations. By the mid-1960s, this massive demographic bulge
-              had reached college age. Campuses swelled. Dorms overflowed. The counterculture was not
-              one thing. It was a loose, sprawling coalition — civil rights activists and anti-war
-              protesters, Beat poets and folk musicians, commune builders and campus radicals. What
-              united them was a shared rejection of the mainstream American Dream. They questioned
-              mandatory military service, racial segregation, gender roles, corporate conformity, and
-              Cold War paranoia. The movement was not limited to California or New York. From the
-              Mississippi Delta to the streets of Chicago, from Southern sit-in counters to Northern
-              anti-war marches, young Americans across the country were waking up. Women, Black
-              Americans, Indigenous peoples, Chicano activists, and queer communities each brought
-              their own urgent demands — and their participation reshaped the counterculture into
-              something far broader and more enduring than simple youthful rebellion.
+              The Youth/Counterculture Movement was a social movement during the 1960s and early 1970s made up mostly of young people who rejected traditional American values and lifestyles. Many members of the movement opposed war, supported civil rights, experimented with new styles of music and fashion, promoted peace, freedom, and self-expression. They were often called “hippies”.
             </p>
           </div>
 
@@ -84,14 +67,14 @@ export default function WhoWeAre() {
             <div className="md:w-1/2">
               <div className="vintage-frame overflow-hidden">
                 <img
-                  src="https://images.pexels.com/photos/1386604/pexels-photo-1386604.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="https://www.slate.com/content/dam/slate/articles/news_and_politics/politics/2016/04/trump_baby_boom/160429_POL_Vietnam-Protest-Berkeley-CA.jpg.CROP.original-original.jpg"
                   alt="Crowd of young people gathered in a field"
                   className="w-full h-64 object-cover"
                   style={{ filter: 'sepia(30%) contrast(1.1)' }}
                 />
               </div>
               <p className="font-typewriter text-brown/50 text-xs text-center mt-2 italic">
-                Summer of Love, Haight-Ashbury, 1967 [Placeholder Image]
+                Students protesting the Vietnam War at the University of California, Berkeley, 1967
               </p>
             </div>
 
@@ -108,8 +91,8 @@ export default function WhoWeAre() {
               <div className="mt-6 grid grid-cols-3 gap-3">
                 {[
                   { num: '76M', label: 'Baby Boomers' },
-                  { num: '500+', label: 'Campus Chapters' },
-                  { num: '100K+', label: 'March on DC, 1967' },
+                 
+                  { num: '2500+', label: 'Berkely Protests' },
                 ].map(({ num, label }) => (
                   <div key={label} className="groovy-card p-3 text-center">
                     <div className="font-display text-2xl text-violet-dark">{num}</div>
@@ -145,10 +128,11 @@ export default function WhoWeAre() {
                 <p className="font-typewriter text-brown/50 text-sm mb-8">— Bob Dylan, "Blowin' in the Wind" (1963)</p>
 
                 <p className="font-body text-brown/80 text-base leading-loose mb-4">
-                  Bob Dylan's "Blowin' in the Wind" became one of the most defining anthems of the 1960s counterculture movement. Released in 1963 on his album "The Freewheelin' Bob Dylan," the song posed a series of rhetorical questions about peace, war, and freedom — questions that resonated deeply with young Americans who were questioning the values of their parents' generation. The song's haunting simplicity and poetic ambiguity allowed it to speak to both the civil rights movement and the anti-war movement simultaneously, making it a unifying call for an entire generation seeking change.
+                  An important primary source from the Youth/Counterculture Movement is the song “Blowin’ in the Wind” by Bob Dylan, which was released in 1963. The song asks questions about war, peace, and freedom, such as how many times people must suffer before change happens. It became an anthem for young people who wanted social change and protested against injustice and war. The first line in the song is “How many roads must a man walk down / Before you call him a man?”
+
                 </p>
                 <p className="font-body text-brown/80 text-base leading-loose">
-                  The refrain "The answer, my friend, is blowin' in the wind" suggested that the solutions to these urgent moral questions were both obvious everywhere around us and yet somehow just out of reach. For young activists marching in the streets, sitting in at lunch counters, and refusing induction into the military, the song crystallized their sense that they were fighting for truths that should be self-evident — peace instead of war, equality instead of segregation, freedom instead of conformity. The song was covered by countless artists including Peter, Paul and Mary, whose version reached #2 on the Billboard charts, bringing the message to an even wider audience and cementing Dylan's role as the voice of a generation.
+                  The song “Blowin' in the Wind” was significant because it expressed how many young people felt in the 1960s. The song inspired people to protest war and fight for equal rights. It also showed how music could bring people together and spread ideas. The song became a symbol of the Youth/Counterculture Movement because it promoted peace, change, and questioning the government. Today, it is still known as one of the most famous protest songs in American history.
                 </p>
               </div>
             </div>
