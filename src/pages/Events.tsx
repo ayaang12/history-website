@@ -227,9 +227,7 @@ export default function Events() {
               <SunburstSVG color="#A8D5A2" size={400} />
             </div>
             <p className="font-groovy text-sage-dark text-xl md:text-2xl leading-relaxed relative z-10 max-w-2xl mx-auto">
-              "History will have to record that the greatest tragedy of this period of social
-              transition was not the strident clamor of the bad people, but the appalling
-              silence of the good people."
+              "In the end, we will remember not the words of our enemies, but the silence of our friends."
             </p>
             <p className="font-typewriter text-brown/50 text-sm mt-4 relative z-10">
               — Martin Luther King Jr.
