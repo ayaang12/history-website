@@ -89,9 +89,9 @@ export default function WhoWeAre() {
 
               <div className="mt-6 grid grid-cols-3 gap-3">
                 {[
-                  { num: '76M', label: 'Baby Boomers' },
+                  { num: ' ', label: ' ' },
                  
-                  { num: '2500+', label: 'Berkely Protests' },
+                  { num: ' ', label: ' ' },
                 ].map(({ num, label }) => (
                   <div key={label} className="groovy-card p-3 text-center">
                     <div className="font-display text-2xl text-violet-dark">{num}</div>
